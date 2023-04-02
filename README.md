@@ -4,7 +4,7 @@ Hello!
 
 Welcome to my repository of configuration files to Linux Systems!
 
-Nowadays, I'm using Linux, at this time, Ubuntu 22.04 LTS in my main working machine.
+Nowadays, I'm using Linux, at this time, Debian 11 in my main working machine.
 
 # Setup the tools
 
