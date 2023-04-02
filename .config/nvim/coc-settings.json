@@ -1,0 +1,9 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "coc.preferences.formatOnSaveFiletypes": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "tsserver.formatOnType": true,
+  "tsserver.enableJavascript": true,
+  "tsserver.enable": true,
+  "coc.preferences.formatOnType": true
+}

@@ -1,0 +1,76 @@
+{
+  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "Darcula",
+  "workbench.startupEditor": "welcomePage",
+  "debug.javascript.usePreview": false,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "security.workspace.trust.enabled": false,
+  // Aumenta o tamanho da fonte do terminal
+  "terminal.integrated.fontSize": 18,
+  "editor.folding": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.fontFamily": "CodeNewRoman Nerd Font Mono",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "line",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+  "breadcrumbs.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+  // autofix eslint
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "files.associations": {
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "git.autofetch": true,
+  "editor.renderControlCharacters": true,
+  "window.titleBarStyle": "custom",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "material-icon-theme.folders.associations": {
+      "modules": "Components",
+      "entities": "Class",
+      "repositories": "Mappings",
+      "infra": "App",
+      "http": "Container",
+      "typeorm": "Database"
+  }  
+}
